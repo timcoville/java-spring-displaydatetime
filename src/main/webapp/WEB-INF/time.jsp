@@ -15,7 +15,7 @@
 	<div id="wrapper">	
 		<c:set var="date" value="${date}"/>
 	
-	    <h1><fmt:formatDate pattern = "h:m a"  value = "${date}" /></h1>
+	    <h1><fmt:formatDate pattern = "hh:mm a"  value = "${date}" /></h1>
 	   	<hr>
 	    <a href="/"><button>Go Back</button></a>
 	</div>
